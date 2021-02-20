@@ -8,7 +8,9 @@ venue: 'Journal 1'
 paperurl: 'https://relweb.cs.aau.dk/rdfshapes/files/edbt2021.pdf'
 citation: 'Pending'
 ---
-This paper is about the number 3. The number 4 is left for future work.
+This paper is about query optimization using SHACL shapes statistics.
+
+
 
 Read more about the paper [here](https://relweb.cs.aau.dk/rdfshapes/files/edbt2021.pdf).
 
