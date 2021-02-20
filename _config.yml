@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kashif Rabbani"
 title_separator          : "-"
 name                     : &name "Kashif Rabbani"
-description              : &description "I am a PhD researcher"
+description              : &description "PhD Research Fellow"
 url                      : https://kashif-rabbani.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Kashif-Rabbani/Kashif-Rabbani.github.io"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/kashifrabbani/"
+  linkedin         : "in/kashifrabbani/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -182,10 +182,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:path/
   talks:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 

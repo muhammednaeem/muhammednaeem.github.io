@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a PhD Research fellow researcher in the [Department of Computer Science](https://www.cs.aau.dk/) at Aalborg University, Denmark.
+Welcome! I am a PhD Research fellow in the [Department of Computer Science](https://www.cs.aau.dk/) at Aalborg University, Denmark.
 I received my Masters Degree in Big Data Management and Analytics ([BDMA](https://bdma.ulb.ac.be/bdma/)) from TU-Berlin, Germany. 
 I have also served as a Data Engineer in everis Barcelona in Semantic Business Unit.
 
