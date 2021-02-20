@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bio"
+title: "Bio:"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Bio
+Kashif Rabbani is a PhD fellow researcher in the Department of Computer Science at Aalborg University.
+
+
+Kashif received his Masters Degree in Big Data Management and Analytics (BDMA) from  
 
 A data-driven personal website
 ======
