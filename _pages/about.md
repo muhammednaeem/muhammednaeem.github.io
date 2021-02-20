@@ -22,7 +22,7 @@ Research Topics
 I am currently working on project called [A Reliable Web of Data](https://relweb.cs.aau.dk/). My PhD is about "Efficient Query Processing on Web". I am exploring various approaches to optimize query processing on Web, specifically in Knowledge Graphs.
 
 
-I have been researching on Provenance and Data Integration, in particular in Bio Medical domain for my Master Thesis in [DTIM](https://www.essi.upc.edu/dtim/)research group at UPC Barcelona, Spain. 
+I have been researching on Provenance and Data Integration, in particular in Bio Medical domain for my Master Thesis in [DTIM](https://www.essi.upc.edu/dtim/) research group at UPC Barcelona, Spain. 
 
 
 <!-- Service, Experience, and Collaborations:
