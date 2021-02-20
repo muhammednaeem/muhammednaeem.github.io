@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Personal Page"
+title: "About me"
 excerpt: "Kashif Rabbani"
 author_profile: true
 redirect_from: 
