@@ -13,18 +13,19 @@
   <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' </head>
 
 <body class='typora-export'>
-  <div id='write' class='is-mac'>
-    <h1><a name="kashif rabbani image" class="md-header-anchor"></a><span>Kashif Rabbani </span><img alt="Kashif Rabbani" style="float: right; max-width:15%" src="kashif.png"></h1>
-    <p><span>PhD Fellow </span></br>
-      <span>Aalborg University, Denmark </span></br>
+  <div itemscope itemtype="http://schema.org/Article" id="write" class="is-mac">
+    <h1><a name="kashif rabbani image" class="md-header-anchor"></a><span itemprop="name">Kashif Rabbani </span><img itemprop="image" alt="Kashif Rabbani" style="float: right; max-width:15%" src="kashif.png" /></h1>
+    <p><span>PhD Fellow </span><br />
+
+      <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Aalborg University, Denmark </span></span><br />
     </p>
 
     <p>
-      <a class="btn btn-light btn-sm" target="_blank" href="https://en.wikipedia.org/wiki/Denmark" role="button" aria-expanded="false"><i class="fas fa-map-marker-alt"> </i> Denmark</a>
-      <a class="btn btn-light btn-sm" target="_blank" href="https://twitter.com/chkashifrabbani" role="button" aria-expanded="false"><i class="fab fa-twitter"> </i> Twitter</a>
-      <a class="btn btn-light btn-sm" target="_blank" href="https://www.linkedin.com/in/kashifrabbani/" role="button" aria-expanded="false"><i class="fab fa-linkedin-in"> </i> LinkedIn</a>
-      <a class="btn btn-light btn-sm" target="_blank" href="https://github.com/Kashif-Rabbani" role="button" aria-expanded="false"><i class="fab fa-github"> </i> GitHub</a>
-      <a class="btn btn-light btn-sm" target="_blank" href="https://scholar.google.com/citations?user=ylZLatcAAAAJ" role="button" aria-expanded="false"><i class="fas fa-graduation-cap"> </i> Google Scholar</a>
+      <a  itemprop="url" class="btn btn-light btn-sm" target="_blank" href="https://en.wikipedia.org/wiki/Denmark" role="button" aria-expanded="false"><i class="fas fa-map-marker-alt"> </i> Denmark</a>
+      <a  itemprop="url" class="btn btn-light btn-sm" target="_blank" href="https://twitter.com/chkashifrabbani" role="button" aria-expanded="false"><i class="fab fa-twitter"> </i> Twitter</a>
+      <a  itemprop="url" class="btn btn-light btn-sm" target="_blank" href="https://www.linkedin.com/in/kashifrabbani/" role="button" aria-expanded="false"><i class="fab fa-linkedin-in"> </i> LinkedIn</a>
+      <a  itemprop="url" class="btn btn-light btn-sm" target="_blank" href="https://github.com/Kashif-Rabbani" role="button" aria-expanded="false"><i class="fab fa-github"> </i> GitHub</a>
+      <a  itemprop="url" class="btn btn-light btn-sm" target="_blank" href="https://scholar.google.com/citations?user=ylZLatcAAAAJ" role="button" aria-expanded="false"><i class="fas fa-graduation-cap"> </i> Google Scholar</a>
     </p>
     <hr />
 
@@ -40,8 +41,10 @@
     <h3><a name="highlights" class="md-header-anchor"></a><span>Highlights</span></h3>
 
     <ul>
-      <li><span>Kashif is currently working on a project called <a target="_blank" class="link-secondary" href="https://relweb.cs.aau.dk/">A Reliable Web of Data</a>.</span></li>
-      <li><span>His PhD is about “Efficient Query Processing on Web”, supervised by <a class="text-decoration-none" target="_blank" href="http://people.cs.aau.dk/~khose/About_me.html" > Prof. Katja Hose</a> and <a class="text-decoration-none" target="_blank" href="https://people.cs.aau.dk/~matteo/" > Dr. Matteo Lissandrini</a>.</span></li>
+      <li><span><span itemprop="author" itemscope itemtype="http://schema.org/Person">Kashif</span> is currently working on a project called <a target="_blank" class="link-secondary" href="https://relweb.cs.aau.dk/">A Reliable Web of Data</a>.</span></li>
+      <li><span>His PhD is about “Efficient Query Processing on Web”, supervised by
+        <a itemprop="author" itemscope itemtype="http://schema.org/Person" class="text-decoration-none" target="_blank" href="http://people.cs.aau.dk/~khose/About_me.html"> Prof. Katja Hose</a> and
+        <a itemprop="author" itemscope itemtype="http://schema.org/Person" class="text-decoration-none"  target="_blank" href="https://people.cs.aau.dk/~matteo/"> Dr. Matteo Lissandrini</a>.</span></li>
       <li><span>He is exploring various approaches to optimize query processing on Web, specifically in Knowledge Graphs.</span></li>
     </ul>
 
@@ -53,7 +56,7 @@
       <!-- Paper 3 -->
       <li>
         <span class="fw-normal">Optimizing SPARQL Queries using Shape Statistics</span><br>
-        <span class="fw-normal text-secondary">Kashif Rabbani, Matteo Lissandrini, and Katja Hose </span> <br>
+        <span class="fw-normal text-secondary"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> Kashif Rabbani</span>,<span itemprop="author" itemscope itemtype="http://schema.org/Person"> Matteo Lissandrini</span>, and <span itemprop="author" itemscope itemtype="http://schema.org/Person">Katja Hose</span> </span> <br>
         <span class="fw-normal text-secondary">In Proceedings of the 24th International Conference on Extending Database Technology, EDBT 2021.</span>
 
         <p>
@@ -65,7 +68,7 @@
         </p>
 
         <div class="collapse" id="abstractPaper3">
-          <div class="card card-body">
+          <div class="card card-body" itemprop="articleBody">
             With the growing popularity of storing data in native RDF, we witness more and more diverse use cases with complex SPARQL queries. As a consequence, query optimization - and in particular cardinality estimation and join ordering - becomes
             even more crucial. Classical methods exploit global statistics covering the entire RDF graph as a whole, which naturally fails to correctly capture correlations that are very common in RDF datasets, which then leads to erroneous
             cardinality estimations and suboptimal query execution plans. The alternative of trying to capture correlations in a fine-granular manner, on the other hand, results in very costly preprocessing steps to create these statistics. Hence, in
@@ -100,7 +103,7 @@
         </p>
 
         <div class="collapse" id="abstractPaper2">
-          <div class="card card-body">
+          <div class="card card-body" itemprop="articleBody">
             ODIN (On-demand Data Integration) is a system that supports the incremental pay-as-you-go integration of data sources into dataspaces and provides user-friendly querying mechanisms of the resulting dataspaces. This website is a companion
             of a demonstration paper submitted to ISWC 2019, where we describe some of its characteristics and underlying assumptions, including the user interactions required. ODIN's novelty lies in a largely automated bottom-up approach (i.e.,
             driven by the sources at hand) that includes the user in the loop for disambiguation purposes. ODIN relies on the concept of traceability graph, which are generic metadata abstraction (i.e., not tailored for an specific task) about the
@@ -133,7 +136,7 @@
         </p>
 
         <div class="collapse" id="abstractPaper1">
-          <div class="card card-body">
+          <div class="card card-body" itemprop="articleBody">
             The current wealth of information, typically known as Big Data, generates a large amount of available data for organisations. Data Integration provides foundations to query disparate data sources as if they were integrated into a single
             source. However, current data integration tools are far from being useful for most organisations due to the heterogeneous nature of data sources, which represents a challenge for current frameworks. To enable data integration of highly
             heterogeneous and disparate data sources, this paper proposes a method to extract the schema from semi-structured (such as JSON and XML) and structured (such as relational) data sources, and generate an equivalent RDFS representation. The
@@ -209,14 +212,14 @@
       <li>
         <p><span>Distributed GraphLab</span></p>
         <ul>
-          <li class="fw-normal text-secondary">Read it on <a target="_blank"  class="text-decoration-none" href='https://medium.com/@kashirabbani/distributed-graphlab-6e32d6780a1c'><span>medium.com</span></a><span>, Published in 2020.</span></li>
+          <li class="fw-normal text-secondary">Read it on <a target="_blank" class="text-decoration-none" href='https://medium.com/@kashirabbani/distributed-graphlab-6e32d6780a1c'><span>medium.com</span></a><span>, Published in 2020.</span></li>
         </ul>
       </li>
 
       <li>
         <p><span>Data Streams Mining</span></p>
         <ul>
-          <li class="fw-normal text-secondary">Read it on <a target="_blank"  class="text-decoration-none" href='https://medium.com/swlh/data-streams-mining-c5012ff1b4c1'><span>medium.com</span></a><span>, Published in 2020.</span></li>
+          <li class="fw-normal text-secondary">Read it on <a target="_blank" class="text-decoration-none" href='https://medium.com/swlh/data-streams-mining-c5012ff1b4c1'><span>medium.com</span></a><span>, Published in 2020.</span></li>
         </ul>
       </li>
 
@@ -224,7 +227,7 @@
       <li>
         <p><span>Metadata (Data about data)</span></p>
         <ul>
-          <li class="fw-normal text-secondary">Read it on <a target="_blank"  class="text-decoration-none" href='https://medium.com/@kashirabbani/metadata-data-about-data-b3bce53e71af'><span>medium.com</span></a><span>, Published in 2020.</span></li>
+          <li class="fw-normal text-secondary">Read it on <a target="_blank" class="text-decoration-none" href='https://medium.com/@kashirabbani/metadata-data-about-data-b3bce53e71af'><span>medium.com</span></a><span>, Published in 2020.</span></li>
         </ul>
       </li>
 
@@ -232,7 +235,8 @@
       <li>
         <p><span>Dark Silicon (Toward Dark Silicon in Servers)</span></p>
         <ul>
-          <li class="fw-normal text-secondary">Read it on <a target="_blank"  class="text-decoration-none" href='https://medium.com/@kashirabbani/dark-silicon-toward-dark-silicon-in-servers-c5dd17c3c2a'><span>medium.com</span></a><span>, Published in 2020.</span></li>
+          <li class="fw-normal text-secondary">Read it on <a target="_blank" class="text-decoration-none" href='https://medium.com/@kashirabbani/dark-silicon-toward-dark-silicon-in-servers-c5dd17c3c2a'><span>medium.com</span></a><span>, Published in
+              2020.</span></li>
         </ul>
       </li>
 
@@ -246,7 +250,7 @@
       <li>
         <p><span>IslamOne IOS Application</span></p>
         <ul>
-          <li class="fw-normal text-secondary">He had been developing and maintaining an IOS application <a target="_blank"  class="text-decoration-none" href='http://islamoneapp.github.io/'><span>http://islamoneapp.github.io/</span></a></li>
+          <li class="fw-normal text-secondary">He had been developing and maintaining an IOS application <a target="_blank" class="text-decoration-none" href='http://islamoneapp.github.io/'><span>http://islamoneapp.github.io/</span></a></li>
         </ul>
       </li>
 
