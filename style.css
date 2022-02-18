@@ -453,6 +453,7 @@
   li {
     margin: 0px;
     position: relative;
+    margin-bottom: 5px;
   }
 
   blockquote> :last-child {
@@ -1283,3 +1284,4 @@
   #decoration {
     text-decoration: none;
   }
+
