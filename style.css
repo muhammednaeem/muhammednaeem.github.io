@@ -1285,3 +1285,7 @@
     text-decoration: none;
   }
 
+#profile_image {
+  border: 0.5px #ddd solid;
+  border-radius: 100px;
+}
