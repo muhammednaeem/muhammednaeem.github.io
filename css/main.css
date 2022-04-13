@@ -24,9 +24,9 @@ html {
   min-height: 480px;
   max-height: 700px; }
 
-.hm-gradient {
-  height: 75%;
-}
+/*.hm-gradient {*/
+/*  height: 75%;*/
+/*}*/
 .hm-gradient .site-bg-img {
   background: rgba(42, 27, 161, 0.7);
   background: linear-gradient(175deg, rgb(59 49 136), rgb(29 210 177) 100%);
