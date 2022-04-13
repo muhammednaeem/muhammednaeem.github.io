@@ -1,0 +1,380 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>RDFShapes</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="apple-touch-icon-precomposed" href="http://qweb.cs.aau.dk/image/favicon256.png">
+    <link rel="shortcut icon" type="image/png" href="http://qweb.cs.aau.dk/image/favicon32.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="../css/mdb.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="../css/main.css?ver=1.1.0" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript" src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="https://kit.fontawesome.com/488e39f817.js" crossorigin="anonymous"></script>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <!--    <link rel="manifest" href="assets/img/favicon/site.webmanifest">-->
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <!--    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <!-- <link href="assets/css/variables-blue.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-orange.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
+
+    <!-- Template Main CSS File -->
+    <!--    <link href="assets/css/main.css" rel="stylesheet">-->
+</head>
+<body>
+<header>
+    <!-- Intro Section-->
+    <section class="view hm-gradient" id="">
+        <div id="particles-js"></div>
+        <div class="site-bg-img d-flex align-items-center">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-10 col-lg-12 text-center text-md-left margins">
+                        <div class="white-text">
+                            <div class="" data-wow-delay="0.2s">
+                                <h1 class="h1-responsive font-weight-bold">SHACL and ShEx in the Wild</h1>
+                                <div class="h5">
+                                    A Community Survey on Validating Shapes Generation and Adoption
+                                </div>
+                                <p style=" font-size:1.2em; margin-top: 0px; margin-bottom: 0px;">
+                                    <a style="color: white;" href="https://vbn.aau.dk/en/persons/147169" target=_blank>Kashif
+                                        Rabbani</a>,
+                                    <a style="color: white;" href="https://people.cs.aau.dk/~matteo/" target=_blank>Matteo
+                                        Lissandrini</a>, and
+                                    <a style="color: white;" href="http://www.cs.aau.dk/~khose" target=_blank>Katja
+                                        Hose</a><br>
+                                    <a style="color: white;" href="https://www.aau.dk/" target=_blank>Aalborg
+                                        University, Denmark</a>
+                                    <!--                          <br> <a style="color: white;" href="https://www2022.thewebconf.org/" target=_blank>TheWebConf-2022</a>-->
+                                </p>
+
+                                <div class="alert alert-light mt-sm-2" role="alert">
+                                    <p style="font-size:1.2em; margin-top: 0px; margin-bottom: 0px;">
+                                        <i style="color: #008ea0;" class="fa-solid fa-envelope"> </i> There is a
+                                        connection between the <b>limitations of existing shapes extraction
+                                        approaches</b> in effectively supporting the real user needs and the (for now)
+                                        common practice of generating shapes manually.
+                                        Our findings revealed that existing shapes extraction tools are capable of
+                                        handling only relatively <b>small knowledge graphs</b> and are unable to extract
+                                        <b> all the required shapes constraints</b>.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</header>
+
+<div class=" ">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services-analysis" class="featured-services">
+        <div class="featured-sec-padding">
+            <h3 class="text-center h3">Community Survey Analysis</h3>
+            <p class="px-5 mb-5 lead blue-grey-text text-justify">
+                53% of respondents were from Industry, 27% from Academia and 20% from both (Fig a).
+                Similarly, 38% of the respondents use graphs of size containing 1-100K triples (Fig b),
+                48% of respondents use graphs containing more than 10 - 100 classes in the ontology (Fig c),
+                50% of respondents use graphs containing more than 10-50 distinct properties (Fig d),
+                47% of respondents generate more than 10-100 shapes (Fig e),
+                and 55% of respondents generate shapes for the entire graph whereas 45% generate shapes for some
+                portions of the graph (Fig f).
+                Read our paper for more details!
+            <div class="row gy-6">
+
+                <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out">
+                    <div class="service-image-item position-relative">
+                        <img src="images/a.png" width="105%">
+                        <p class="text-center">(a) Area of occupation</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                    <div class="service-image-item position-relative">
+                        <img src="images/b.png" width="105%">
+                        <p class="text-center">(b) Size of graph (No of triples)</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+                    <div class="service-image-item position-relative">
+                        <img src="images/c.png" width="105%">
+                        <p class="text-center">(c) Size of ontology (No of classes)</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="service-image-item position-relative">
+                        <img src="images/d.png" width="105%">
+                        <p class="text-center">(d) Distinct # of properties in the graph</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="service-image-item position-relative">
+                        <img src="images/e.png" width="105%">
+                        <p class="text-center">(e) Number of generated shapes</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-2 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="service-image-item position-relative">
+                        <img src="images/f.png" width="105%">
+                        <p class="text-center">(f) Scope of the generated shapes</p>
+                    </div>
+                </div><!-- End Service Item -->
+            </div>
+
+        </div>
+    </section><!-- End Featured Services Section -->
+
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+        <div class="featured-sec-padding">
+
+            <div class="row gy-5">
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-book icon"></i></div>
+                        <h4><a href="https://relweb.cs.aau.dk/validatingshapes/files/TheWebConf2022_poster.pdf"
+                               target="_blank" class="stretched-link">Read Poster Paper</a></h4>
+                        <p>Read our four page poster paper with complete analysis of our community survey and latest
+                            state-of-the-art shapes extraction approaches.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-globe icon"></i></div>
+                        <h4><a href="https://relweb.cs.aau.dk/validatingshapes/" target="_blank" class="stretched-link">Visit
+                            official Webpage</a></h4>
+                        <p>Visit our official webpage of the poster paper where you can read about experiments, source
+                            code, and other relevant details of the paper.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-cloud-arrow-down icon"></i></div>
+                        <h4><a href="https://doi.org/10.5281/zenodo.5958986" target="_blank" class="stretched-link">Download
+                            SHAPES from Zenodo</a></h4>
+                        <p>Download SHACL shapes for DBpedia, YAGO-4, and LUBM datasets generated by our developed
+                            program.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-patch-question icon"></i></div>
+                        <h4><a href="https://forms.gle/93KFZH5vcGy7Et27A" target="_blank" class="stretched-link">Answer
+                            our Survey</a></h4>
+                        <p>Read and answer our survey available on Google Forms.</p>
+                    </div>
+                </div><!-- End Service Item -->
+            </div>
+
+        </div>
+    </section><!-- End Featured Services Section -->
+
+    <script type="text/javascript" src="../scripts/jquery.min.js?ver=1.1.0"></script>
+    <script type="text/javascript" src="../scripts/popper.min.js?ver=1.1.0"></script>
+    <script type="text/javascript" src="../scripts/bootstrap.min.js?ver=1.1.0"></script>
+    <script type="text/javascript" src="../scripts/wow.min.js?ver=1.1.0"></script>
+    <script type="text/javascript" src="../scripts/mdb.min.js?ver=1.1.0"></script>
+
+    <script type="text/javascript">
+        // ParticlesJS Config.
+        // ParticlesJS Config.
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 700
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 140,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <!-- Default Statcounter code for RDFShapes_RelWeb
+     https://relweb.cs.aau.dk/rdfshapes/ -->
+    <script type="text/javascript">
+        var sc_project = 12503156;
+        var sc_invisible = 1;
+        var sc_security = "4783362e";
+    </script>
+    <script type="text/javascript"
+            src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics"
+                                    href="https://statcounter.com/" target="_blank"><img class="statcounter"
+                                                                                         src="https://c.statcounter.com/12503156/0/4783362e/1/"
+                                                                                         alt="Web
+          Analytics"></a></div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</div>
+</body>
+</html>
