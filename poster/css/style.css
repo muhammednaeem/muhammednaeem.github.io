@@ -273,7 +273,10 @@ blockquote p {
 
 
 .featured-sec-padding {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .dimensions {
