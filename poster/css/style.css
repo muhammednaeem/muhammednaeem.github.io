@@ -202,6 +202,7 @@ blockquote p {
     background: var(--color-white);
     height: 100%;
     box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.1);
+    width: 100%;
 }
 .featured-services .service-item .icon {
     margin-bottom: 10px;
@@ -272,11 +273,187 @@ blockquote p {
 }
 
 
+
+/*--------------------------------------------------------------
+# Animated Hero Section
+--------------------------------------------------------------*/
+.hero-animated {
+    width: 100%;
+    min-height: 50vh;
+    background: url("../img/hero-bg.png") center center;
+    background-size: cover;
+    position: relative;
+    padding: 120px 0 60px;
+}
+.hero-animated h2 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 300;
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+}
+.hero-animated h2 span {
+    color: var(--color-primary);
+}
+.hero-animated p {
+    color: rgba(var(--color-secondary-rgb), 0.8);
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero-animated .animated {
+    margin-bottom: 60px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@media (min-width: 992px) {
+    .hero-animated .animated {
+        max-width: 45%;
+    }
+}
+@media (max-width: 991px) {
+    .hero-animated .animated {
+        max-width: 60%;
+    }
+}
+@media (max-width: 575px) {
+    .hero-animated .animated {
+        max-width: 80%;
+    }
+}
+.hero-animated .btn-get-started {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: var(--color-white);
+    background: var(--color-primary);
+    font-family: var(--font-secondary);
+}
+.hero-animated .btn-get-started:hover {
+    background: rgba(var(--color-primary-rgb), 0.8);
+}
+.hero-animated .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+.hero-animated .btn-watch-video i {
+    color: var(--color-primary);
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+}
+.hero-animated .btn-watch-video:hover {
+    color: var(--color-primary);
+}
+.hero-animated .btn-watch-video:hover i {
+    color: rgba(var(--color-primary-rgb), 0.8);
+}
+@media (max-width: 640px) {
+    .hero-animated h2 {
+        font-size: 32px;
+    }
+    .hero-animated p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .hero-animated .btn-get-started, .hero-animated .btn-watch-video {
+        font-size: 14px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.cta {
+    padding: 0;
+    margin-bottom: 60px;
+}
+.cta .container {
+    padding: 80px;
+    background: rgba(var(--color-secondary-rgb), 0.1);
+    border-radius: 15px;
+}
+@media (max-width: 992px) {
+    .cta .container {
+        padding: 60px;
+    }
+}
+.cta .content h3 {
+    color: var(--color-secondary);
+    font-size: 48px;
+    font-weight: 700;
+}
+.cta .content h3 em {
+    font-style: normal;
+    position: relative;
+}
+.cta .content h3 em:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 10px;
+    background: rgba(var(--color-primary-rgb), 0.5);
+    z-index: -1;
+}
+.cta .content p {
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 18px;
+}
+.cta .content .cta-btn {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 10px;
+    background: rgba(var(--color-primary-dark-rgb), 0.9);
+}
+.cta .content .cta-btn:hover {
+    background: var(--color-primary);
+}
+.cta .img {
+    position: relative;
+}
+.cta .img:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(var(--color-white-rgb), 0.5);
+    border-radius: 15px;
+    transform: rotate(12deg);
+}
+.cta .img:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(var(--color-white-rgb), 0.9);
+    border-radius: 15px;
+    transform: rotate(6deg);
+}
+.cta .img img {
+    position: relative;
+    z-index: 3;
+    border-radius: 15px;
+}
+
 .featured-sec-padding {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .dimensions {
