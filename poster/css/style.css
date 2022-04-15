@@ -197,12 +197,12 @@ blockquote p {
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services .service-item {
-    padding: 30px;
+    padding: 10px;
     transition: all ease-in-out 0.4s;
     background: var(--color-white);
     height: 100%;
-    box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.1);
-    width: 100%;
+    /*box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.1);*/
+    width: 105%;
 }
 .featured-services .service-item .icon {
     margin-bottom: 10px;
@@ -214,8 +214,8 @@ blockquote p {
 }
 .featured-services .service-item h4 {
     font-weight: 600;
-    margin-bottom: 15px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 .featured-services .service-item h4 a {
     color: var(--color-secondary);
@@ -223,12 +223,13 @@ blockquote p {
 }
 .featured-services .service-item p {
     line-height: 24px;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
+    text-align: justify;
 }
 .featured-services .service-item:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.1);
+    /*box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.1);*/
 }
 .featured-services .service-item:hover h4 a {
     color: var(--color-primary);
@@ -293,7 +294,7 @@ blockquote p {
     font-family: var(--font-secondary);
 }
 .hero-animated h2 span {
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 }
 .hero-animated p {
     color: rgba(var(--color-secondary-rgb), 0.8);
